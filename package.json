@@ -1,0 +1,49 @@
+{
+  "name": "react-delayed-renderer",
+  "version": "1.0.4",
+  "description": "A react component for delayed rendering of child components.",
+  "main": "./dist/index.js",
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/plugin-proposal-optional-chaining": "^7.11.0",
+    "@babel/plugin-proposal-throw-expressions": "^7.2.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/plugin-transform-runtime": "^7.8.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.12"
+  },
+  "peerDependencies": {
+    "prop-types": "^15.5.0",
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0"
+  },
+  "scripts": {
+    "build": "webpack --mode production --config webpack.config.js",
+    "prepublish": "npm run build"
+  },
+  "bugs": {
+    "url": "https://github.com/sanehab/react-delayed-renderer/issues"
+  },
+  "author": {
+    "name": "Ehab Alsharif"
+  },
+  "homepage": "https://github.com/sanehab/react-delayed-renderer",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanehab/react-delayed-renderer.git"
+  },
+  "keywords": [
+    "react",
+    "delay",
+    "rendering",
+    "render",
+    "delayed",
+    "renderer",
+    "timeout"
+  ],
+  "license": "MIT"
+}
